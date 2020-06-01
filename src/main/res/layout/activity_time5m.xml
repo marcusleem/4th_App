@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#4646"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_view_countdown2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:text="00:00"
+        android:textColor="@android:color/black"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/button_start_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_countdown2"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/black"
+        android:textColor="#FFFFFF"
+        android:text="start" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_countdown2"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/button_start_pause"
+        android:text="reset"
+        android:background="@android:color/black"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button_skip"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/button_start_pause"
+        android:layout_marginTop="150dp"
+        android:onClick="mButtonSkip"
+        android:text="Skip"
+        android:background="@android:color/black"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="190dp"
+        android:foregroundGravity="top"
+        android:text="Take a Break"
+        android:textSize="30dp" />
+
+</RelativeLayout>

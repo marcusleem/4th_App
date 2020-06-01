@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "933655608698",
+    "firebase_url": "https://thapp-b8b65.firebaseio.com",
+    "project_id": "thapp-b8b65",
+    "storage_bucket": "thapp-b8b65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933655608698:android:2e9efac29bdf879287aac3",
+        "android_client_info": {
+          "package_name": "com.marcus.a4th_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933655608698-9lnro3sp5e03h6pu21uigf15kbnjm2do.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9hIOZhTD2d_14S1X50CyKgmbRvtmKkgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933655608698-9lnro3sp5e03h6pu21uigf15kbnjm2do.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

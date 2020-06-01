@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marcus.a4th_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BMIRecord"/>
+        <activity android:name=".BMIActivity"/>
+        <activity android:name=".ExerciseActivity"/>
+        <activity android:name="Ex1"/>
+        <activity android:name="time1"/>
+        <activity android:name=".Ex2"/>
+        <activity android:name=".time2"/>
+        <activity android:name=".Ex3"/>
+        <activity android:name=".time3"/>
+        <activity android:name=".Ex4"/>
+        <activity android:name=".time4"/>
+        <activity android:name=".Ex5"/>
+        <activity android:name=".time5"/>
+        <activity android:name=".Ex6"/>
+        <activity android:name=".DiffActivity"/>
+        <activity android:name=".EndActivity"/>
+        <activity android:name=".Ex1M"/>
+        <activity android:name=".Ex2M"/>
+        <activity android:name=".Ex3M"/>
+        <activity android:name=".Ex4M"/>
+        <activity android:name=".Ex5M"/>
+        <activity android:name=".Ex6M"/>
+        <activity android:name=".time1m"/>
+        <activity android:name=".time2m"/>
+        <activity android:name=".time3m"/>
+        <activity android:name=".time4m"/>
+        <activity android:name=".time5m"/>
+        <activity android:name=".Ex1H"/>
+        <activity android:name=".Ex2H"/>
+        <activity android:name=".Ex3H"/>
+        <activity android:name=".Ex4H"/>
+        <activity android:name=".Ex5H"/>
+        <activity android:name=".Ex6H"/>
+        <activity android:name=".time1h"/>
+        <activity android:name=".time2h"/>
+        <activity android:name=".time3h"/>
+        <activity android:name=".time4h"/>
+        <activity android:name=".time5h"/>
+        <activity android:name=".HowToCrunch"/>
+        <activity android:name=".HowToCrunch2"/>
+        <activity android:name=".HowToLunge"/>
+        <activity android:name=".HowToPlank"/>
+        <activity android:name=".HowToPush"/>
+        <activity android:name=".HowToSquat"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SignUp"/>
+        <activity android:name=".ForgetPassword"/>
+        <activity android:name=".SignIn"/>
+    </application>
+
+</manifest>

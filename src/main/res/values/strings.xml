@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">4th_App</string>
+    <string name="calculateBMI">Calculate BMI</string>
+    <string name="height">Height</string>
+    <string name="cm">cm</string>
+    <string name="kg">kg</string>
+    <string name="weight">Weight</string>
+    <string name="very_severely_underweight">Very Severly Underweight</string>
+    <string name="severely_underweight">Severly Underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese_class_i">Moderately Overweight</string>
+    <string name="obese_class_ii">Severately Overweight</string>
+    <string name="obese_class_iii">Very Severately Overweight</string>
+    <string name="worry">Enter the email address you registered with </string>
+    <string name="pushup"><b>1.</b> Get down on all fours, placing your hands slightly wider than your shoulders.\n
+        \n
+<b>2.</b> Straighten your arms and legs.\n
+        \n
+<b>3.</b> Lower your body until your chest nearly touches the floor.\n
+        \n
+<b>4.</b> Pause, then push yourself back up.\n
+        \n
+<b>5.</b> Repeat.  </string>
+
+    <string name="plank"><b>1.</b> Start in a low plank position with your body in a straight line, your elbows bent and under your shoulders and your feet hip-width apart.\n
+        \n
+<b>2.</b> Lift your left leg to a 45-degree angle and hold.\n
+        \n
+<b>3.</b> Switch legs and repeat.\n</string>
+
+    <string name="crunch"><b>1.</b> Lie down on your back. Plant your feet on the floor, hip-width apart. Bend your knees and place your arms across your chest. Contract your abs and inhale.\n
+        \n
+<b>2.</b> Exhale and lift your upper body, keeping your head and neck relaxed.\n
+        \n
+<b>3.</b>  Inhale and return to the starting position.\n</string>
+
+
+    <string name="crunch2"><b>1.</b> Lie down on your back.Lift your leg up in a 90 degree angle. Bend your knees and place your arms across your chest. Contract your abs and inhale.\n
+        \n
+<b>2.</b> Exhale and lift your upper body, keeping your head and neck relaxed.\n
+        \n
+<b>3.</b>  Inhale and return to the starting position.\n</string>
+
+    <string name="lunge"><b>1.</b> Stand tall with feet hip-width apart. Engage your core.\n
+        \n
+<b>2.</b> Take a big step forward with right leg. Start to shift your weight forward so heel hits the floor first.\n
+        \n
+<b>3.</b> Lower your body until right thigh is parallel to the floor and right shin is vertical. It’s OK if knee shifts forward a little as long as it doesn’t go past right toe. If mobility allows, lightly tap left knee to the floor while keeping weight in right heel.\n
+        \n
+<b>4.</b> Press into right heel to drive back up to starting position.\n
+        \n
+<b>5.</b> Repeat on the other side. </string>
+
+    <string name="squat"><b>1.</b> Stand with feet a little wider than hip width, toes facing front.\n
+        \n
+<b>2.</b> Drive your hips back—bending at the knees and ankles and pressing your knees slightly open.\n
+        \n
+<b>3.</b> Sit into a squat position while still keeping your heels and toes on the ground, chest up and shoulders back.\n
+        \n
+<b>4.</b> Strive to eventually reach parallel, meaning knees are bent to a 90-degree angle.\n
+        \n
+<b>5.</b> Press into your heels and straighten legs to return to a standing upright position.\n
+        \n
+    <b>6.</b> Repeat</string>
+</resources>
