@@ -23,6 +23,7 @@ public class BMIActivity extends AppCompatActivity {
     private EditText weight;
     private TextView result;
     Button btnCalc;
+    Button saveBMI;
 
     FirebaseDatabase database;
     DatabaseReference myref;
@@ -40,11 +41,14 @@ public class BMIActivity extends AppCompatActivity {
         weight = (EditText) findViewById(R.id.weight);
         result = (TextView) findViewById(R.id.tvResult);
         btnCalc = (Button) findViewById(R.id.btnCalc);
+        saveBMI = (Button) findViewById(R.id.saveBMI);
+
 
         ImageButton onClickHome = (ImageButton) findViewById(R.id.home);
         ImageButton onClickExercise = (ImageButton) findViewById(R.id.exercise);
         ImageButton onClickBMI = (ImageButton) findViewById(R.id.bmi);
         ImageButton onClickBMIRecord = (ImageButton) findViewById(R.id.bmirecord);
+
 
 
         onClickHome.setOnClickListener(new View.OnClickListener() {
